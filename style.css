@@ -1,0 +1,157 @@
+html{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgba(20,21,25,255);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    min-height: 100svh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#first-state{
+    background-color: rgba(33,40,50,255);
+    color: white;
+    border-radius: 1.1rem;
+    height: auto;
+    width: 45;
+    padding: 3rem 1.5rem 2.5rem 1.5rem;
+
+}
+
+#star{
+    
+    position: absolute;
+    top: 200px;
+    left: 593px;
+    margin-top:10px ;
+    display: flex;
+    justify-content: center;
+    background-color: #262f38;
+    border-radius: 50%;
+    
+    padding: 10px;
+}
+
+h5{
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: "Overpass",sans-serif;
+}
+
+.h1{
+    font-family: "Overpass",sans-serif;
+}
+
+#p1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    display: inline-block;
+    
+    
+    
+    
+    font-weight: 400;
+    word-spacing: 24px;
+    font-family: "Overpass",sans-serif;
+    
+    
+    
+}
+
+#grey1,#grey2,#grey3,#grey4,#grey5{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    padding: 15px;
+    display:inline-flex;
+    
+    justify-content:center;
+
+    
+    
+    background-color: #262f38;
+}
+
+
+
+#p1 :hover{
+    background-color: white;
+    color: black;
+}
+
+#p1 :active{
+    background-color: #fc7613;
+}
+
+
+
+
+
+
+
+#submit{
+    font-family: "Overpass",sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius:1rem;
+    background-color: #fc7613; 
+    color: black;
+    margin-bottom: -15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#second-state{
+    display: none;
+    background-color: rgba(33,40,50,255);
+    color: white;
+    border-radius: 1.1rem;
+    height: auto;
+    width: 45;
+    padding: 3rem 1.5rem 1.2rem 1.5rem;
+    font-family: "Overpass",sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#rate{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px 7px 5px 7px;
+    border-radius: 0.8rem;
+    color: #fc7613;
+    background-color: #262f38;
+}
+
+#img2{
+    margin-bottom: 10px;
+    
+}
+
+h2{
+    margin-bottom: -6px;
+}
+
+p{
+    margin-top: 0px;
+    padding-top: 0px;
+    text-align: center;
+}
